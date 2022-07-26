@@ -5,7 +5,7 @@ module.exports = {
     nav: [{
       text: 'Home', link: '/'
     },{
-      text: 'Github', link: 'https://enootttt.github.io/myUI/'
+      text: 'Github', link: 'https://github.com/enootttt/myUI'
     },{
       text: 'Npm', link: 'https://www.npmjs.com/package/myadd-ui'
     }],
