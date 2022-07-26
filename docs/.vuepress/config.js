@@ -11,7 +11,10 @@ module.exports = {
     }],
     sidebar: [
       '/',
-      '/componentDocs/card'
-    ]
+      '/componentDocs/card',
+      '/componentDocs/button',
+      '/componentDocs/input'
+    ],
+    smoothScroll: true
   }
 }
