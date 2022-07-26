@@ -1,24 +1,22 @@
-# my-ui
+# my-ui 组件库
 
-## Project setup
-```
-yarn install
-```
+### 快速开始
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+#### 1.安装组件库
+
+```bash
+npm i my-ui
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+#### 2.引用组件库
+```javascript
+// 全部引入
+import 'my-ui/dist/css/index.css';
+import MUI from 'my-ui'
+Vue.use(MUI)
 
-### Lints and fixes files
+// 按需引用
+import 'my-ui/dist/css/demo.css'
+import { Demo } from 'my-ui';
+Vue.use(Demo)
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
