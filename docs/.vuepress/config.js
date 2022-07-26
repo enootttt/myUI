@@ -10,8 +10,8 @@ module.exports = {
       text: 'Npm', link: 'https://www.npmjs.com/package/myadd-ui'
     }],
     sidebar: [
-      './',
-      './componentDocs/card'
+      '/',
+      '/componentDocs/card'
     ]
   }
 }
