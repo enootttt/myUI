@@ -1,11 +1,11 @@
 module.exports = {
   title: 'My-UI',
-  base: '/myUI/',
+  base: '.',
   themeConfig: {
     nav: [{
       text: 'Home', link: '/'
     },{
-      text: 'Github', link: 'https://github.com/test-921/myUI'
+      text: 'Github', link: 'https://enootttt.github.io/myUI/'
     },{
       text: 'Npm', link: 'https://www.npmjs.com/package/myadd-ui'
     }],
