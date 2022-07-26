@@ -1,6 +1,6 @@
 module.exports = {
   title: 'My-UI',
-  base: '.',
+  base: '/myUI/',
   themeConfig: {
     nav: [{
       text: 'Home', link: '/'
@@ -10,8 +10,8 @@ module.exports = {
       text: 'Npm', link: 'https://www.npmjs.com/package/myadd-ui'
     }],
     sidebar: [
-      '/',
-      '/componentDocs/card'
+      './',
+      './componentDocs/card'
     ]
   }
 }
