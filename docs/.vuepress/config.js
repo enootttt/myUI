@@ -1,6 +1,6 @@
 module.exports = {
   title: 'My-UI',
-  base: /myUI/,
+  base: '/myUI/',
   themeConfig: {
     nav: [{
       text: 'Home', link: '/'
