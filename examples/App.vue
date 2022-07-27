@@ -1,15 +1,38 @@
 <template>
   <div id="app" class="input-wrapper">
+    <m-input placeholder="请输入姓名" v-model="msg" type="textarea"></m-input>
+    <m-input 
+      placeholder="请输入姓名" 
+      clearable
+      center
+    >
+      <template #prepend>https://</template>
+    </m-input>
     <m-input 
       placeholder="请输入姓名" 
       v-model="msg"
-    ></m-input>
+      clearable
+      center
+    >
+      <template #append>.com</template>
+    </m-input>
+    <m-input 
+      placeholder="请输入姓名" 
+      v-model="msg"
+      clearable
+      center
+    >
+      <template #prepend>https://</template>
+      <template #append>.com</template>
+    </m-input>
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
+import mInput from '../docs/.vuepress/components/m-input.vue';
 export default {
+  components: { mInput },
   name: "App",
   data() {
     return {
@@ -53,5 +76,6 @@ export default {
 
 .input-wrapper {
   width: 480px;
+  margin: 100px auto;
 }
 </style>

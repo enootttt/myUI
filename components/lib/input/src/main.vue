@@ -1,6 +1,6 @@
 <template>
-  <div class="inline-container">
-    <template v-if="type==='textarea'">
+  <div class="input-wrapper">
+    <template v-if="type == 'textarea'">
       <textarea
         class="r-textarea"
         :disabled="disabled"
@@ -36,7 +36,7 @@
             @click="clearInput"
             v-if="showClear"
           >
-            <r-icon name="chahao"></r-icon>
+            <i> × </i>
           </span>
         </div>
 

@@ -10,10 +10,10 @@ Button 组件
 <m-button type="danger">按钮</m-button><br/>
 <br/>可以通过设置 type 属性修改 Button 的类型
 ```html
-  <m-button type="primary">按钮</m-button>
-  <m-button type="success">按钮</m-button>
-  <m-button type="warning">按钮</m-button>
-  <m-button type="danger">按钮</m-button>
+<m-button type="primary">按钮</m-button>
+<m-button type="success">按钮</m-button>
+<m-button type="warning">按钮</m-button>
+<m-button type="danger">按钮</m-button>
 ```
 
 ### 形状
@@ -24,10 +24,10 @@ Button 组件
 <m-button type="danger" round>按钮</m-button><br/>
 <br/>可以通过设置 round 属性控制 Button 是否为圆形
 ```html
-  <m-button type="primary" round>按钮</m-button>
-  <m-button type="success" round>按钮</m-button>
-  <m-button type="warning" round>按钮</m-button>
-  <m-button type="danger" round>按钮</m-button>
+<m-button type="primary" round>按钮</m-button>
+<m-button type="success" round>按钮</m-button>
+<m-button type="warning" round>按钮</m-button>
+<m-button type="danger" round>按钮</m-button>
 ```
 
 ### 禁用状态
@@ -38,10 +38,10 @@ Button 组件
 <m-button type="danger" disabled>按钮</m-button><br/>
 <br/>可以通过设置 disabled 属性来控制按钮是否为禁用状态
 ```html
-  <m-button type="primary" disabled>按钮</m-button>
-  <m-button type="success" disabled>按钮</m-button>
-  <m-button type="warning" disabled>按钮</m-button>
-  <m-button type="danger" disabled>按钮</m-button>
+<m-button type="primary" disabled>按钮</m-button>
+<m-button type="success" disabled>按钮</m-button>
+<m-button type="warning" disabled>按钮</m-button>
+<m-button type="danger" disabled>按钮</m-button>
 ```
 
 

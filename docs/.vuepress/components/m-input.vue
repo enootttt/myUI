@@ -1,6 +1,6 @@
 <template>
   <div class="inline-container">
-    <template v-if="type==='textarea'">
+    <template v-if="type == 'textarea'">
       <textarea
         class="r-textarea"
         :disabled="disabled"
@@ -36,7 +36,7 @@
             @click="clearInput"
             v-if="showClear"
           >
-            <r-icon name="chahao"></r-icon>
+            <i> ×</i>
           </span>
         </div>
 
@@ -76,7 +76,7 @@ export default {
     },
     clearable: {
       type: Boolean,
-      default: false
+      default: true
     },
     disabled: {
       type: Boolean,
@@ -128,5 +128,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import './input.scss';
+@import './input.scss';
 </style>
