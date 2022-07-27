@@ -13,7 +13,8 @@ module.exports = {
       '/',
       '/componentDocs/card',
       '/componentDocs/button',
-      '/componentDocs/input'
+      '/componentDocs/input',
+      '/componentDocs/InputNumber'
     ],
     smoothScroll: true
   }

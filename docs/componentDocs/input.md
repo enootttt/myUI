@@ -1,6 +1,13 @@
 # Input
 Input组件
 
+## 引入
+```bash
+import 'myadd-ui/dist/css/index.css';
+import { Input } from 'myadd-ui';
+Vue.use(Input);
+```
+
 ## 示例
 ### 类型
 <br />通过设置 type 属性可以改变文本框的类型
@@ -38,3 +45,9 @@ Input组件
 | clearable | 是否可清空 | Boolean | false | false |
 | disabled | 是否禁用 | Boolean | false | false |
 | center | 文字是否居中显示文字 | Boolean | false | false |
+
+### Slots
+| name | 说明 |
+| ---- | ---- |
+| prepend | 输入框前置内容，只对 type="text" 有效 |
+| append | 输入框后置内容，只对 type="text" 有效 |

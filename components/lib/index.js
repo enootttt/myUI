@@ -2,12 +2,14 @@ import Demo from './demo'
 import Card from './card'
 import Button from './button'
 import Input from './input'
+import InputNumber from './input-number'
 
 const components = {
   Demo,
   Card,
   Button,
-  Input
+  Input,
+  InputNumber
 }
 
 const install = function (Vue) {

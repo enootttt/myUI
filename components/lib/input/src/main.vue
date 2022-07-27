@@ -1,5 +1,5 @@
 <template>
-  <div class="input-wrapper">
+  <div class="inline-container">
     <template v-if="type == 'textarea'">
       <textarea
         class="r-textarea"
@@ -36,7 +36,7 @@
             @click="clearInput"
             v-if="showClear"
           >
-            <i> × </i>
+            <i> ×</i>
           </span>
         </div>
 
@@ -95,7 +95,7 @@ export default {
       },
       set(value) {
         this.$emit("input", value);
-        this.$parent.$emit("validate");
+        this.$emit("validate");
       }
     },
     MyListeners() {

@@ -1,7 +1,15 @@
 # Card
 卡片组件
 
-### 示例
+## 引入
+```bash
+import 'myadd-ui/dist/css/index.css';
+import { Card } from 'myadd-ui';
+Vue.use(Card);
+```
+
+
+## 示例
 <m-card imgSrc="/myUI/logo.png" summary="Vue" />
 
 ### 代码

@@ -76,7 +76,7 @@ export default {
     },
     clearable: {
       type: Boolean,
-      default: true
+      default: false
     },
     disabled: {
       type: Boolean,
@@ -95,7 +95,7 @@ export default {
       },
       set(value) {
         this.$emit("input", value);
-        this.$parent.$emit("validate");
+        this.$emit("validate");
       }
     },
     MyListeners() {
@@ -128,5 +128,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import './input.scss';
+@import './input.scss'
 </style>

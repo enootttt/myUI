@@ -6,7 +6,8 @@ import App from './App.vue'
 // Vue.use(MUI)
 import '../components/css/index.scss'
 import Input from '../components/lib/input/index'
-Vue.use(Input)
+import InputNumber from '../components/lib/input-number/index'
+Vue.use(Input).use(InputNumber)
 
 Vue.config.productionTip = false
 

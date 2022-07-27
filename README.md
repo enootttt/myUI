@@ -16,7 +16,7 @@ import MUI from 'myadd-ui'
 Vue.use(MUI)
 
 // 按需引用
-import 'myadd-ui/dist/css/demo.css'
+import 'myadd-ui/dist/css/index.css'
 import { Demo } from 'myadd-ui';
 Vue.use(Demo)
 ```

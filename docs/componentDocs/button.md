@@ -1,6 +1,14 @@
 # Button
 Button 组件
 
+## 引入
+```bash
+import 'myadd-ui/dist/css/index.css';
+import { Button } from 'myadd-ui';
+Vue.use(Button);
+```
+
+
 ## 示例
 
 ### 类型
