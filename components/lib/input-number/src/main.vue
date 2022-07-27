@@ -101,9 +101,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.input-number-inner{
-  width: 150px;
-}
-</style>

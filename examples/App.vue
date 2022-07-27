@@ -19,9 +19,8 @@
         :max="10"
         :min="1"
         :precision="2"
-      ></m-inputnumber>
+      >1</m-inputnumber>
       <m-inputnumber></m-inputnumber>
-      <h1>{{ count }}</h1>
     </div>
   </div>
 </template>
