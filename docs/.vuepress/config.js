@@ -14,7 +14,9 @@ module.exports = {
       '/componentDocs/card',
       '/componentDocs/button',
       '/componentDocs/input',
-      '/componentDocs/InputNumber'
+      '/componentDocs/InputNumber',
+      '/componentDocs/radio',
+      '/componentDocs/RadioGroup'
     ],
     smoothScroll: true
   }

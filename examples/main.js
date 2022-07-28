@@ -7,7 +7,9 @@ import App from './App.vue'
 import '../components/css/index.scss'
 import Input from '../components/lib/input/index'
 import InputNumber from '../components/lib/input-number/index'
-Vue.use(Input).use(InputNumber)
+import Radio from '../components/lib/radio/index'
+import RadioGroup from '../components/lib/radio-group/index'
+Vue.use(Input).use(InputNumber).use(Radio).use(RadioGroup)
 
 Vue.config.productionTip = false
 

@@ -1,28 +1,43 @@
 <template>
   <div id="app" class="input-wrapper">
-    <m-input placeholder="请输入姓名" clearable></m-input>
-    <m-input placeholder="请输入姓名" v-model="msg" type="textarea"></m-input>
-    <m-input placeholder="请输入姓名" v-model="msg" clearable center>
-      <template #prepend>https://</template>
-    </m-input>
-    <m-input placeholder="请输入姓名" v-model="msg" clearable center>
-      <template #append>.com</template>
-    </m-input>
-    <m-input placeholder="请输入姓名" v-model="msg" clearable center>
-      <template #prepend>https://</template>
-      <template #append>.com</template>
-    </m-input>
-    <h1>{{ msg }}</h1>
-    <div class="input-number-container">
-      <m-inputnumber
-        v-model="count"
-        :step="0.2"
-        :max="10"
-        :min="1"
-        :precision="2"
-      >1</m-inputnumber>
-      <m-inputnumber :value="1"></m-inputnumber>
+    <div>
+      <m-input placeholder="请输入姓名" clearable></m-input>
+      <m-input placeholder="请输入姓名" v-model="msg" type="textarea"></m-input>
+      <m-input placeholder="请输入姓名" v-model="msg" clearable center>
+        <template #prepend>https://</template>
+      </m-input>
+      <m-input placeholder="请输入姓名" v-model="msg" clearable center>
+        <template #append>.com</template>
+      </m-input>
+      <m-input placeholder="请输入姓名" v-model="msg" clearable center>
+        <template #prepend>https://</template>
+        <template #append>.com</template>
+      </m-input>
+      <h1>{{ msg }}</h1>
+      <div class="input-number-container">
+        <m-inputnumber
+          v-model="count"
+          :step="0.2"
+          :max="10"
+          :min="1"
+          :precision="2"
+          >1</m-inputnumber
+        >
+        <m-inputnumber :value="1"></m-inputnumber>
+      </div>
     </div>
+
+    <!-- <input type="radio" value="one" :checked="picked === 'one'" @change="picked=$event.target.value">One
+    <input type="radio" value="two" v-model="picked">Two
+    <div>
+      {{ picked }}
+    </div> -->
+    <m-radio label="男" v-model="sex">男</m-radio>
+    <m-radio label="女" v-model="sex">女</m-radio>
+    <m-radio-group v-model="group_sex">
+      <m-radio label="男">男</m-radio>
+      <m-radio label="女">女</m-radio>
+    </m-radio-group>
   </div>
 </template>
 
@@ -35,6 +50,9 @@ export default {
     return {
       msg: "hello word",
       count: 5,
+      picked: "",
+      sex: "男",
+      group_sex: '女'
     };
   },
 };

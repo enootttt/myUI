@@ -11,7 +11,7 @@ Vue.use(Input);
 ## 示例
 ### 文本域
 <br /><m-input placeholder="请输入内容" type="textarea" /><br />
-通过设置 type 属性可以改变文本框的类型
+<br />通过设置 type 属性可以改变文本框的类型
 ```html
 <m-input placeholder="请输入内容" type="textarea" />
 ```

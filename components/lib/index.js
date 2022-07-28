@@ -3,13 +3,17 @@ import Card from './card'
 import Button from './button'
 import Input from './input'
 import InputNumber from './input-number'
+import Radio from './radio'
+import RadioGroup from './radio-group'
 
 const components = {
   Demo,
   Card,
   Button,
   Input,
-  InputNumber
+  InputNumber,
+  Radio,
+  RadioGroup
 }
 
 const install = function (Vue) {
