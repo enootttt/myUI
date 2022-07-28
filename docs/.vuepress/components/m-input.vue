@@ -95,11 +95,11 @@ export default {
       },
       set(value) {
         this.$emit("input", value);
-        this.$emit("validate");
+        this.$parent.$emit("validate");
       }
     },
     MyListeners() {
-      return Object.assign(this.$listeners, {
+      return Object.assign(this.$attrs, {
         input: event => this.$emit("input", event.target.value)
       });
     },

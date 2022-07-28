@@ -12,28 +12,56 @@ Vue.use(Input);
 ### 类型
 <br />通过设置 type 属性可以改变文本框的类型
 ```html
-<input placeholder="请输入内容" type="textarea" /><br />
+<m-input placeholder="请输入内容" type="textarea" /><br />
 ```
 
 ### 禁用状态
-<input placeholder="请输入内容" disabled  /><br />
+<br /><m-input placeholder="请输入内容" disabled  /><br />
 <br />可以通过设置 disabled 来禁用输入框
 ```html
 <input placeholder="请输入内容" disabled  />
 ```
 
 ### 可清空输入框
-<input placeholder="请输入内容" clearable /><br />
+<br /><m-input placeholder="请输入内容" clearable /><br />
 <br />可以通过设置 disabled 来禁用输入框
 ```html
-<input placeholder="请输入内容" clearable />
+<m-input placeholder="请输入内容" clearable />
 ```
 
 ### 居中显示文字
-<input placeholder="请输入内容" clearable center /><br />
+<br /><m-input placeholder="请输入内容" clearable center /><br />
 <br />调用 center 属性可以居中显示文字
 ```html
 <input placeholder="请输入内容" center />
+```
+
+### 复合型输入框
+<br /><m-input placeholder="请输入内容">
+  <div slot="prepend">https://</div>
+</m-input>
+<div></div>
+<m-input placeholder="请输入内容">
+  <div slot="append">.com</div>
+</m-input>
+<div><br /></div>
+<m-input placeholder="请输入内容">
+  <div slot="prepend">https://</div>
+  <div slot="append">.com</div>
+</m-input><br />
+```html
+<m-input placeholder="请输入内容">
+  <div slot="prepend">https://</div>
+</m-input>
+
+<m-input placeholder="请输入内容">
+  <div slot="append">.com</div>
+</m-input>
+
+<m-input placeholder="请输入内容">
+  <div slot="prepend">https://</div>
+  <div slot="append">.com</div>
+</m-input>
 ```
 
 

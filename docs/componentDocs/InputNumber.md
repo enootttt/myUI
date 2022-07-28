@@ -10,7 +10,7 @@ Vue.use(InputNumber);
 
 ## 示例
 ### 基础样式
-<br /><m-inputnumber :value="1"></m-inputnumber><br />
+<br /><m-inputnumber></m-inputnumber><br />
 ```html
 <m-inputnumber></m-inputnumber>
 ```
