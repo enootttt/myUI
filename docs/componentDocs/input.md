@@ -9,10 +9,11 @@ Vue.use(Input);
 ```
 
 ## 示例
-### 类型
-<br />通过设置 type 属性可以改变文本框的类型
+### 文本域
+<br /><m-input placeholder="请输入内容" type="textarea" /><br />
+通过设置 type 属性可以改变文本框的类型
 ```html
-<m-input placeholder="请输入内容" type="textarea" /><br />
+<m-input placeholder="请输入内容" type="textarea" />
 ```
 
 ### 禁用状态
@@ -23,14 +24,14 @@ Vue.use(Input);
 ```
 
 ### 可清空输入框
-<br /><m-input placeholder="请输入内容" clearable /><br />
+<br /><m-input placeholder="请输入姓名" :value="'请输入姓名'" clearable></m-input><br />
 <br />可以通过设置 disabled 来禁用输入框
 ```html
 <m-input placeholder="请输入内容" clearable />
 ```
 
 ### 居中显示文字
-<br /><m-input placeholder="请输入内容" clearable center /><br />
+<br /><m-input placeholder="请输入内容" center /><br />
 <br />调用 center 属性可以居中显示文字
 ```html
 <input placeholder="请输入内容" center />

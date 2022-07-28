@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="input-wrapper">
+    <m-input placeholder="请输入姓名" clearable></m-input>
     <m-input placeholder="请输入姓名" v-model="msg" type="textarea"></m-input>
     <m-input placeholder="请输入姓名" v-model="msg" clearable center>
       <template #prepend>https://</template>

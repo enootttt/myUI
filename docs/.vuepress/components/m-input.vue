@@ -36,7 +36,7 @@
             @click="clearInput"
             v-if="showClear"
           >
-            <i> ×</i>
+            <i>×</i>
           </span>
         </div>
 
