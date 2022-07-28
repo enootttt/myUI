@@ -38,6 +38,14 @@
       <m-radio label="男">男</m-radio>
       <m-radio label="女">女</m-radio>
     </m-radio-group>
+
+    <m-checkbox v-model="checked" label="篮球">篮球</m-checkbox>
+    <p>是否选中: {{ checked ? "选中" : "未选中" }}</p>
+
+    <m-checkbox v-model="hobby" label="篮球">篮球</m-checkbox>
+    <m-checkbox v-model="hobby" label="足球">足球</m-checkbox>
+    <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
+    <p>您选中的爱好是: {{ hobby }}</p>
   </div>
 </template>
 
@@ -52,7 +60,9 @@ export default {
       count: 5,
       picked: "",
       sex: "男",
-      group_sex: '女'
+      group_sex: "女",
+      checked: true,
+      hobby: ["排球"],
     };
   },
 };

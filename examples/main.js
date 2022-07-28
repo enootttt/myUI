@@ -9,7 +9,8 @@ import Input from '../components/lib/input/index'
 import InputNumber from '../components/lib/input-number/index'
 import Radio from '../components/lib/radio/index'
 import RadioGroup from '../components/lib/radio-group/index'
-Vue.use(Input).use(InputNumber).use(Radio).use(RadioGroup)
+import Checkbox from '../components/lib/checkbox/index'
+Vue.use(Input).use(InputNumber).use(Radio).use(RadioGroup).use(Checkbox)
 
 Vue.config.productionTip = false
 
