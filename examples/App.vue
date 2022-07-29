@@ -26,7 +26,6 @@
         <m-inputnumber :value="1"></m-inputnumber>
       </div>
     </div>
-
     <!-- <input type="radio" value="one" :checked="picked === 'one'" @change="picked=$event.target.value">One
     <input type="radio" value="two" v-model="picked">Two
     <div>
@@ -46,6 +45,9 @@
     <m-checkbox v-model="hobby" label="足球">足球</m-checkbox>
     <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
     <p>您选中的爱好是: {{ hobby }}</p>
+
+    <m-button type="primary" @click="showMessageBox">点击我</m-button>
+
   </div>
 </template>
 
@@ -65,6 +67,20 @@ export default {
       hobby: ["排球"],
     };
   },
+  methods: {
+    showMessageBox() {
+      this.$confirm({
+        title: '我是标题',
+        content: '我是内容',
+        onOk: () => {
+          // alert('onOk')
+        },
+        onCancel: () => {
+          // alert('onCancel')
+        }
+      })
+    }
+  }
 };
 </script>
 

@@ -6,6 +6,7 @@ import InputNumber from './input-number'
 import Radio from './radio'
 import RadioGroup from './radio-group'
 import Checkbox from './checkbox'
+import MessageBox from './message-box'
 
 const components = {
   Demo,
@@ -15,7 +16,8 @@ const components = {
   InputNumber,
   Radio,
   RadioGroup,
-  Checkbox
+  Checkbox,
+  MessageBox
 }
 
 const install = function (Vue) {
