@@ -1,6 +1,6 @@
 {
   "name": "myadd-ui",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "李慧峰自己的组件库",
   "main": "dist/index.umd.js",
   "keywords": [
