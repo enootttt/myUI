@@ -46,8 +46,6 @@
     <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
     <p>您选中的爱好是: {{ hobby }}</p>
 
-    <m-button type="primary" @click="showMessageBox">点击我</m-button>
-
   </div>
 </template>
 
@@ -66,20 +64,6 @@ export default {
       checked: true,
       hobby: ["排球"],
     };
-  },
-  methods: {
-    showMessageBox() {
-      this.$confirm({
-        title: '我是标题',
-        content: '我是内容',
-        onOk: () => {
-          // alert('onOk')
-        },
-        onCancel: () => {
-          // alert('onCancel')
-        }
-      })
-    }
   }
 };
 </script>

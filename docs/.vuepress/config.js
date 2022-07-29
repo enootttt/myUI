@@ -17,8 +17,7 @@ module.exports = {
       '/componentDocs/InputNumber',
       '/componentDocs/radio',
       '/componentDocs/RadioGroup',
-      '/componentDocs/checkbox',
-      '/componentDocs/MessageBox'
+      '/componentDocs/checkbox'
     ],
     smoothScroll: true
   }

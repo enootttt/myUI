@@ -41,7 +41,7 @@
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^5.1.0",
-    "myadd-ui": "^0.1.8",
+    "myadd-ui": "^0.1.9",
     "node-sass": "^7.0.1",
     "sass": "^1.54.0",
     "sass-loader": "5",
