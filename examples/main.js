@@ -11,7 +11,8 @@ import Radio from '../components/lib/radio/index'
 import RadioGroup from '../components/lib/radio-group/index'
 import Checkbox from '../components/lib/checkbox/index'
 import Button from '../components/lib/button/index'
-Vue.use(Input).use(InputNumber).use(Radio).use(RadioGroup).use(Checkbox).use(Button)
+import Icon from '../components/lib/icon/index'
+Vue.use(Input).use(InputNumber).use(Radio).use(RadioGroup).use(Checkbox).use(Button).use(Icon)
 
 
 Vue.config.productionTip = false
