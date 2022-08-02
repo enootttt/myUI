@@ -45,11 +45,6 @@
     <m-checkbox v-model="hobby" label="足球">足球</m-checkbox>
     <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
     <p>您选中的爱好是: {{ hobby }}</p>
-
-    <m-button type="danger">
-      <m-icon name="erji"></m-icon>
-      听音乐
-    </m-button>
   </div>
 </template>
 
