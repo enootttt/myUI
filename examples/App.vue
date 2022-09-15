@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="input-wrapper">
-    <div>
+    <!-- <div>
       <m-input placeholder="请输入姓名" clearable></m-input>
       <m-input placeholder="请输入姓名" v-model="msg" type="textarea"></m-input>
       <m-input placeholder="请输入姓名" v-model="msg" clearable center>
@@ -25,13 +25,13 @@
         >
         <m-inputnumber :value="1"></m-inputnumber>
       </div>
-    </div>
+    </div> -->
     <!-- <input type="radio" value="one" :checked="picked === 'one'" @change="picked=$event.target.value">One
     <input type="radio" value="two" v-model="picked">Two
     <div>
       {{ picked }}
     </div> -->
-    <m-radio label="男" v-model="sex">男</m-radio>
+    <!-- <m-radio label="男" v-model="sex">男</m-radio>
     <m-radio label="女" v-model="sex">女</m-radio>
     <m-radio-group v-model="group_sex">
       <m-radio label="男">男</m-radio>
@@ -44,14 +44,16 @@
     <m-checkbox v-model="hobby" label="篮球">篮球</m-checkbox>
     <m-checkbox v-model="hobby" label="足球">足球</m-checkbox>
     <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
-    <p>您选中的爱好是: {{ hobby }}</p>
+    <p>您选中的爱好是: {{ hobby }}</p> -->
+
+    <m-tag text="你好" type="danger" close></m-tag>
   </div>
 </template>
 
 <script>
-import mInput from "../docs/.vuepress/components/m-input.vue";
+// import mInput from "../docs/.vuepress/components/m-input.vue";
 export default {
-  components: { mInput },
+  // components: { mInput },
   name: "App",
   data() {
     return {
