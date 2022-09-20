@@ -4,7 +4,7 @@
       v-model="inputValue"
       center
       :disabled="disabled"
-      @change="handleChange"
+      @input="handleChange"
     >
       <div class="cursor-pointer" slot="prepend" :class="{'is-disabled': decreaseDisabled}" @click="handleClick('decrease')">
         <i class="input-nofont">-</i>
@@ -94,7 +94,8 @@ export default {
     isNumber(num){
       return !isNaN(num * 1) && Object.prototype.toString.call(num * 1) === '[object Number]'
     },
-    handleChange() {
+    handleChange(e) {
+      console.log(e);
       // 强制更新
       this.$forceUpdate()
     }

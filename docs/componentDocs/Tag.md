@@ -41,6 +41,7 @@ Vue.use(Tag);
 ### Attributes
 | 参数 | 说明 | 类型 | 可选项 | 是否必要 | 默认值 |
 | ---- | ---- | ---- | ------- | -------- | ------ |
+| text | 标签内的文本信息 | —— | —— | false | '标签' |
 | type | 类型 | String | `primary` `success` `info` `warning` `danger` | false | false |
 | close | 是否显示关闭按钮 | —— | false | false |
 

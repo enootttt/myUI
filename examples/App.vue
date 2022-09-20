@@ -46,7 +46,18 @@
     <m-checkbox v-model="hobby" label="排球">排球</m-checkbox>
     <p>您选中的爱好是: {{ hobby }}</p> -->
 
-    <m-tag text="你好" type="danger" close></m-tag>
+    <!-- <m-tag text="你好" type="danger" close></m-tag> -->
+    <div class="input-number-container">
+      <m-inputnumber
+        v-model="count"
+        :step="0.2"
+        :max="10"
+        :min="1"
+        :precision="2"
+        >1</m-inputnumber
+      >
+      <m-inputnumber :value="1"></m-inputnumber>
+    </div>
   </div>
 </template>
 
@@ -65,7 +76,7 @@ export default {
       checked: true,
       hobby: ["排球"],
     };
-  }
+  },
 };
 </script>
 
